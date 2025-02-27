@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Gabe's Survey Form</h1>
+    <p id="description">Thank you for taking the time to fill out your responses</p>
+    <form id="survey-form">
+      <fieldset>
+        <article class="duo">
+          <label id="name-label" for="name" class="label-input">Name<input id="name" type="text" class="inp" required placeholder="Enter your name"/></label>
+        </article>
+        <article class="duo">
+        <label id="email-label" for="email" class="label-input">Email<input id="email" type="email" class="inp" required placeholder="Enter your email"/></label>
+        </article>
+      </fieldset>
+      <hr>
+      <fieldset>
+        <article class="duo">
+          <label id="number-label" for="number" class="label-input">Years known<input id="number" type="number" class="inp" min ="0" max="19" placeholder="1"/></label>
+        </article>
+        <article class="duo">
+          <label class="label-input">What's our primary relationship?
+          <select id="dropdown" class="inp">
+            <option value="">(select one)</option>
+            <option value="1">Family</option>
+            <option value="2">Friend</option>
+          </select>
+        </article>
+      </label>
+      </fieldset>
+      <fieldset>
+        <legend>Do you think I'm handsome? (required)</legend>
+          <label for="yes-button"><input id="yes-button" name="handsome-choice" type="radio" value="1" checked/>Yes</label>
+          <label for="sorta-button"><input id="sorta-button" name="handsome-choice" type="radio" value="2" />Sorta</label>
+          <label for="no-button"><input id="no-button" name="handsome-choice" type="radio" value="3" />No</label>
+      </fieldset>
+      <hr>
+      <fieldset>
+        <legend>Please mark all that apply</legend>
+          <div class="check">
+            <label for="check1"><input id="check1" value="1" type="checkbox"/>I go to the gym</label>
+          </div>
+          <div class="check">
+            <label for="check2"><input id="check2" value="2" type="checkbox"/>I am in college</label>
+          </div>
+          <div class="check">
+            <label for="check3"><input id="check3" value="3" type="checkbox"/>I am in a relationship</label>
+          </div>
+          <div class="check">
+            <label for="check4"><input id="check4" value="4" type="checkbox"/>I like computers</label>
+          </div>
+      </fieldset>
+      <hr>
+      <fieldset>
+        <label for="question-box">Leave any questions you would like answered below
+          <textarea id="question-box" rows="5" cols="30"></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit"/>
+    </form>
+  </body>
+</html>
