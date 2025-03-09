@@ -4,7 +4,7 @@ This repository contains the projects I am working on as part of the **Responsiv
 
 ## Projects Overview
 
-1. **Survey Form** - Completed on **2/27/25**
+1. **Survey Form** - Completed on **2/27/25** - Quick look [here](https://github.com/Gabe1L2/Responsive-Web-Design/blob/main/Survey%20Form/Survey%20Form%20Screenshot.png)
    - **Description**: This project is a responsive survey form that collects user input such as name, email, and preferences while ensuring proper validation. It includes dropdowns, radio buttons, checkboxes, and a textarea for additional comments. The form is styled with CSS to enhance usability and accessibility.
    - **Skills Covered**: HTML form elements, HTML5 validation, CSS styling, form accessibility, user input handling.
 2. **Tribute Page** - Completed on **3/8/25**
